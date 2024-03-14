@@ -1,9 +1,12 @@
+
+import homeServices from './components/homePage/homeServices.vue';
 import backgroundHome from './components/homePage/backgroundHome.vue';
 <template>
   <body>
     <div>
       <homeNavbar></homeNavbar>
       <homeHero></homeHero>
+      <homeServices></homeServices>
     </div>
   </body>
 </template>
